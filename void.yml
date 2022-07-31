@@ -1,0 +1,14 @@
+id: VOID
+type: BIOME
+
+vanilla: minecraft:the_void
+
+terrain:
+  sampler:
+    type: EXPRESSION
+    expression: if(x = 0 && y = 0 && z = 0, 1, -1)
+
+palette:
+  - BLOCK:minecraft:air: 319
+  - BLOCK:minecraft:bedrock: 0
+  - BLOCK:minecraft:air: -1

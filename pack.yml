@@ -1,0 +1,19 @@
+id: VOIDWORLD
+
+version: 1.0.0
+
+author: Aureus
+
+addons:
+  language-yaml: 0.1.+
+  chunk-generator-noise-3d: 0.1.+
+  config-noise-function: 0.1.+
+  palette-block-shortcut: 0.1.+
+  config-biome: 0.1.+
+  biome-provider-single: 0.1.+
+
+generator: NOISE_3D
+
+biomes:
+  type: SINGLE
+  biome: VOID
